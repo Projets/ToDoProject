@@ -1,0 +1,10 @@
+
+le site est dans le dossier projet
+
+il faut importer la base de données todo_dump.sql dans une base todo sous MySQL (vous pouvez changer le nom de la database dans connect.php)
+
+le fichier connect.php dans helpers est à changer pour se connecter a votre base de données
+
+administrateur par défault
+-login: admin
+-password: admin

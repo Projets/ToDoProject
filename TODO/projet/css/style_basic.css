@@ -1,0 +1,363 @@
+.lien {
+color: #37A3EB;
+}
+.lien:hover {
+color: #2181CF;
+}
+.title {
+text-indent: 5%;
+border-bottom: 1px solid #2181CF;
+}
+
+body {
+background-image: url(../images/back.png);
+background-repeat: repeat;
+}
+/*-----header--------*/
+#header {
+border: 1px solid #37A3EB;
+border-radius: 10px;
+text-align: center;
+background-image: url(../images/backheader.png);
+background-repeat: repeat;
+}
+#header h1 {
+margin-top: 0;
+}
+#header_session {
+margin-right: 10px;
+text-align: right;
+font-size: 105%;
+}
+.lien_header {
+text-decoration: none;
+color: #FFFFFF;
+}
+/*-------ABOUT-US----*/
+#about_us {
+border: 1px solid black;
+width: 400px;
+height: 150px;
+}
+/*-------MENU-------*/
+#menu {
+width: 80%;
+margin: auto;
+margin-top: 5px;
+margin-bottom: 15px;
+border: 1px solid #37A3EB;
+border-radius: 5px;
+height: 29px;
+box-shadow: 0px 5px 10px 0px #9b9b9b;
+}
+#menu ul li {
+display: inline-block;
+border-right: 1px solid #FFFFFF;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+#menu ul li:hover {
+background-color: #2181CF;
+}
+#menu ul {
+margin-top: 0;
+margin-left: 10%;
+}
+.menu_left {
+border-left: 1px solid #FFFFFF;
+}
+.lien_menu {
+text-decoration: none;
+color: #FFFFFF;
+margin: 0;
+padding-right: 25px;
+padding-left: 25px;
+padding-top: 2px;
+padding-bottom: 8px;
+}
+
+/*------inscription-------*/
+#inscript {
+background-color: #FFFFFF;
+float: right;
+margin-top:2%;
+margin-right: 20%;
+width: 300px;
+border: 1px solid #37A3EB;
+border-radius: 5px;
+}
+#inscript a{
+color: #37A3EB;
+}
+#inscript input {
+height: 40px;
+font-size: 140%;
+}
+.form_input {
+width: 98%;
+height: 30px;
+}
+#inscript_button {
+width: 100%;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.conditions {
+text-indent: 5px;
+}
+/*------login------*/
+#home_login {
+float: left;
+margin-top:14%;
+margin-left: 20%;
+width: 300px;
+}
+#home_log_button {
+padding-right:22%;
+padding-left:22%;
+padding-top: 20%;
+padding-bottom: 20%;
+text-decoration: none;
+font-size: 150%;
+}
+#login {
+margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+}
+#login input {
+height: 50px;
+font-size: 140%;
+}
+#log_button {
+width: 100%;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #37A3EB, #2181CF) repeat scroll 0 0 transparent;
+    border-color: #2C8ED1 #1C74B3 #0D5B97;
+    border-image: none;
+    border-left: 1px solid #1C74B3;
+    border-right: 1px solid #1C74B3;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #DDDDDD, 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+/*--------INDEX----------*/
+#currentdate
+{
+position: fixed;
+top: 185px;
+left: 5px;
+padding:0;
+width: 130px;
+text-align: center;
+}
+#pasdetaches {
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+margin-top: 5%;
+text-align: center;
+border-bottom: 1px solid #2181CF;
+font-size: 110%;
+}
+#pasdetaches2 {
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+text-align: center;
+font-size: 110%;
+}
+#pasdetaches a {
+color: #37A3EB;
+}
+#pasdetaches a:hover {
+color: #2181CF;
+}
+.fix_cell {
+width:400px;
+overflow: auto;
+}
+/*-------AJOUTER-TACHE-----*/
+#ajout_tache_button{
+padding: 0;
+background-color:#799AAF;
+}
+#ajout_tache_button input{
+padding: 0;
+margin: 0;
+height: 120px;
+font-size: 150%;
+background-color:#799AAF;
+border: 1px solid #799AAF;
+color: #FFFFFF;
+}
+#ajout_tache_button input:hover{
+background-color:#2181CF;
+}
+
+/*--------TODOS----------*/
+#todo {
+margin-top: 20px;
+padding: 5px;
+width: 80%;
+margin: auto;
+border-collapse:collapse;
+box-shadow: 5px 5px 25px 0px #9b9b9b;
+}
+#todo table, td, th, tr {
+border:1px solid black;		
+text-align:center;
+}
+#todo td a{
+text-decoration: none;
+color: #FFFFFF;
+margin:0;
+width: 100%;
+display: block; 
+height: 100%;
+}
+#todo tr:hover {
+background-color:#799AAF;
+}
+#todo th {
+background-color:#799AAF;
+}
+.tableclair {
+background-color: #37A3EB;
+}
+.tablefonce {
+background-color: #2181CF;
+}
+#modif_todo {
+padding: 5px;
+width: 80%;
+margin: auto;
+border-collapse:collapse;
+box-shadow: 5px 5px 25px 0px #9b9b9b;
+}
+#modif_todo table, td, th, tr {
+border:1px solid black;		
+text-align:center;
+margin-top: 5%;
+}
+#modif_todo td a{
+text-decoration: none;
+color: #FFFFFF;
+margin:0;
+width: 100%;
+display: block; 
+height: 100%;
+}
+#modif_todo th {
+background-color:#799AAF;
+}
+#supprime_tache {
+width: 200px;
+margin: auto;
+text-align: center;
+}
+#suppr_button {
+position: absolute;
+bottom: 20px;
+left: 45%;
+width: 150px;
+height: 50px;
+font-size: 110%;
+}
+#suppr_tache {
+position: absolute;
+bottom: 20px;
+left: 45%;
+}
+#supprimeobselettes {
+padding : 0;
+margin-right: 2px;
+margin-left: 2px;
+margin-top: 0;
+margin-bottom: 0;
+border: 1px solid #FFFFFF;
+border-radius: 5px;
+}
+#supprimeobselettes a {
+color: #FFFFFF;
+display: block;
+text-decoration: none;
+}
+#supprimeobselettes a:hover {
+border-radius: 5px;
+background-color: #2181CF;
+}
+/*-------OBSELETTES---------*/
+#oui_delete_obselettes {
+position: relative;
+left: 40%;
+width: 100px;
+height: 50px;
+}
+#oui_delete_obselettes a:hover {
+}
+#non_delete_obselettes {
+position: relative;
+right: 40%;
+width: 100px;
+height: 50px;
+}
+/*-------OBSELETTES---------*/
+#delete_obselettes {
+width: 100px;
+margin-top: 5px;
+margin-bottom: 5px;
+border: 1px solid #37A3EB;
+border-radius: 5px;
+height: 30px;
+box-shadow: 0px 5px 10px 0px #9b9b9b;
+text-align: center;
+padding: 0;
+}
+#delete_obselettes a {
+color: #FFFFFF;
+text-decoration: none;
+display: block;
+height: 100%;
+}
+#delete_obselettes a:hover {
+background-color:  #2181CF;
+}
+/*-------ADMIN----------*/
+#new_admin {
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #37A3EB;
+border-radius: 10px;
+width: 250px;
+padding-left: 25px;
+}
+#new_admin p {
+margin-bottom: 10px;
+}
+#submit_admin {
+width: 150px;
+margin-left: 35px;
+margin-bottom: 10px;
+}
+/*-------DECONNEXION--------*/
+#goodbye {
+margin-top: 200px;
+text-align: center;
+font-size: 220%;
+border-bottom: 1px solid #2181CF;
+}
+
+
+/* * { border: 1px solid black; } */

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Prog WEB : projet 2012-2013</title>
+  <link rel="stylesheet" href="todo_fichiers/style.html">
+<style>
+body {
+width : 750px;
+margin : 0 auto;
+}
+h3 {
+	border-top : 1px solid #ccc;
+}
+
+h1{
+text-align : center;
+}
+</style></head>
+
+<body>
+<h1>Projet WEB</h1>
+<h3>Introduction</h3>
+Ce projet compte pour le contrôle continu du cours de prog web (DUT1, S2). 
+Vous devez le réaliser par groupe de 2/3. Je serai plus exigeant si vous êtes 3. 
+Il sera à rendre  début juin.
+
+<h3>Le sujet</h3>
+Cette année, vous devez réaliser une application WEB gérant les todos (liste de taches). 
+Voila quelques exemples existants sur le net : 
+<ul>
+<li><a href="http://www.rememberthemilk.com/">Remember the milk</a></li>
+<li><a href="https://teuxdeux.com/">TeuxDeux</a></li>
+<li>D'autres <a href="http://freelanceswitch.com/productivity/best-online-to-do-list-apps/">exemples</a> existent</li>
+</ul>
+Une telle application doit fournir les fonctionnalités suivantes : 
+<ul>
+<li>Inscription des utilisateurs (qui ont un id, un login, un mot de passe et un mail)</li>
+<li>Connexion des utilisateurs (et donc déconnexion) en utilisant les sessions</li>
+<li>Création des tâches qui possèdent 
+	<ul>
+		<li>un titre</li>
+		<li>Eventuellement, un résumé</li>
+		<li>Une date limite où elle doit être faite</li>
+		<li>Une priorité (de 1, peu importante, à 5, dramatiquement importante)</li>
+		<li>Un propriétaire (la personne qui l'a créée)</li>
+	</ul>
+</li><li>Gestion des tâches multi-utilisateurs : lors de la création, 
+vous
+	pouvez donnez les mails des personnes qui sont aussi
+	concernées par le todo (tâche). Ils pourront alors le voir comme si 
+c'était le leur, mais ne pourront pas le modifier/supprimer.</li>	
+<li>Affichage des tâches</li>
+<li>Modification, suppression des tâches</li>
+
+</ul>
+Cette application doit donc fonctionner sous PHP/MySQL. Pour la mise en 
+page CSS, vous pouvez utiliser 
+le bootstrap CSS de twitter vu en TP, le créer vous même, ou utiliser un
+ CSS existant sur le web (mais dans ce cas, faut le signaler).
+
+<h3>Recommandations</h3>
+<p>
+Le projet est réalisable sans difficultés majeures, à partir du moment où :
+</p><ul>
+<li>Vous travaillez régulièrement dessus et pas 2 jours avant la deadline.</li>
+<li>Vous vous répartissez le travail !</li>
+<li>Commencez donc par le MCD et la création de vos tables (ça va aller vite !)</li>
+</ul>
+<p></p>
+
+<h3>Quelques extensions possibles</h3>
+<p>
+Vous pouvez ajouter des fonctionnalités. De nombreuses possibilités
+existent, parmi lesquelles : 
+</p><ul>
+<li>Site en <a href="http://fr.wikipedia.org/wiki/Responsive_Web_Design">Responsive WEB Design</a> (réalisable grâce à CSS bootstrap par exemple)</li>
+<li>Envoi de mail un jour avant la deadline de la tâche</li>
+<li>Affichage des tâches grâce à un calendrier.</li>
+<li>Possibilité de rester connecté plusieurs jours (gestion de cookies).</li>
+<li>Partie Administrateur permettant la gestion des utilisateurs
+(suppression).</li>
+<li>Ré-initialisation du mot de passe par envoie d'un lien
+temporaire par mail</li>
+<li>Procédure de sauvegarde (dump) et de restauration de la
+base de données.</li>
+</ul>
+<p></p>
+
+
+
+</body></html>
