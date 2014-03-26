@@ -3,7 +3,7 @@
 $host='localhost';
 $database='todo';
 $user='root';
-$password='mdp';
+$password='root';
 
 $strCon = "mysql:host=$host;dbname=$database"; 
 $arrExtraParam= array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"); 

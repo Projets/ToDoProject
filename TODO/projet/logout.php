@@ -9,5 +9,5 @@
 		include('helpers/style.php');
 	echo "</head>";
 	echo "<p id='goodbye'>Au revoir et à bientôt !</p>";
-	header('Refresh:2;URL=accueil.php'); 
+	header('Refresh:1;URL=accueil.php'); 
 ?>
